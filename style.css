@@ -1,0 +1,260 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 1800px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    padding: 15px 0px;
+    box-shadow: 0px 15px 15px rgb(173, 164, 164);
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.logo_sup {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 45px;
+    color: rgb(129, 129, 126);
+}
+
+.nav {
+    width: 500px;
+    margin-left: 60px;
+    margin-top: 22px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(121, 113, 113);
+    margin: 0px 30px;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    color: black;
+}
+.btn{
+  margin-left: 450px;
+  width: 400px;
+margin-top: 20px;
+
+}
+  .btn a{
+      margin: 10px 15px;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 20px 25px;
+border-radius: 5px;
+  }
+
+.btn_one:hover{
+    background-color: rgb(217, 226, 235);
+    color: rgb(39, 39, 214)
+}
+.btn_two{
+    color:white ;
+    background-color:dodgerblue
+}
+.btn_two:hover{
+    background-color: rgb(15, 104, 194);
+}
+.title{
+    margin-top: 100px;
+}
+.box1{
+    width: 40%;
+   
+    padding-left: 65px;
+}
+.box1 p{
+    font-size: 28px;
+    color: rgb(168, 167, 167);
+}
+.box1 h1{
+    font-size: 80px;
+}
+.box2{
+    width: 50%;
+    margin: auto;
+}
+.box2 video{
+    width: 90%;
+    margin: 10%;
+    border-radius: 5px;
+}
+.sup{
+   background-color: rgb(247, 245, 245);
+   margin-top: 100px;
+   border-top: 1px solid rgb(197, 199, 201);
+   border-bottom: 1px solid rgb(197, 199, 201);
+}
+.sup_box{
+    width:28%;
+    padding: 45px;
+    margin: 0px auto;
+} 
+.sup_box h2{
+    
+    font-weight: 500;
+}
+ .underline{
+    background-color: rgb(235, 16, 243);
+    width: 50px;
+    height: 5px;
+    border-radius: 10px;
+}  
+.sup_box p{
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(105, 105, 105);
+}
+ .sup_box_border{
+     border-left:1px solid rgb(197, 199, 201);
+     border-right:1px solid rgb(197, 199, 201);
+ }
+ .feature{
+     margin-top: 100px;     
+ }
+.feature_img{
+    width: 15%;
+    margin: 0px auto;
+   /* background-color: aqua; */
+ 
+} 
+.feature_img img{
+    width: 100%;
+    
+}   
+.feature_txt{
+    margin-top: 0px auto;
+  
+} 
+.feature_txt h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 70px;
+    margin-top: 0%;
+
+}  
+.feature_txt p{
+    color: rgb(128, 128, 128);
+    padding: 0px 10%;
+    text-align: center;
+    font-size: 23px;
+    width: 55%;
+    margin: 0px auto;
+}
+.feature_btns{
+    margin-top: 100px;
+    border-bottom: 1px solid rgb(197, 199, 201);
+}
+ .feature_btn{
+     width: 33%;
+     text-align: center;
+     padding-bottom: 13px ; 
+     padding-top: 20px;
+ }   
+ .feature_btn a{
+     text-decoration: none;
+     color: rgb(5, 5, 5);
+     font-size: 25px;
+     font-weight: 200;
+    
+ }
+.feature_btn:hover{
+    border-bottom: 4px solid rgb(5, 123, 241);
+}
+.feature_content{
+    margin-top: 290px;
+    width: 35%;
+    padding: 0% 5%;
+    color: rgb(133, 131, 131);
+}  
+.feature_content p{
+    font-size: 28px;
+}
+.feature_video{
+    width: 55%;
+    margin-top: 80px;
+}    
+.feature_video video{
+    width: 100%;
+    
+}
+ .account{
+     margin-top: 170px;
+     margin-bottom: 170px;
+ }   
+ .account_con{
+     width: 50%;
+     margin:auto;  
+ }
+.account_con h2{
+    text-align: center;
+    font-size: 70px;
+}  
+ .account_con a{
+     display: block;
+     text-decoration: none;
+     color: dodgerblue;
+     padding: 15px 0px;
+     text-align: center;
+     margin-top: 15px;
+     font-size:20px;
+     font-weight: 500;
+ }   
+.account_con .con_sup{
+    width: 50%;
+    background-color: dodgerblue;
+    color: rgb(247, 247, 247);
+    margin: auto;
+    border-radius: 10px;
+}
+.con_sup:hover{
+    background-color: rgb(33, 113, 192);
+}
+.con_supp:hover{
+    color: rgb(27, 112, 197);
+}
+.footer{
+    padding: 25px 0px;
+    background-color: rgb(247, 243, 243);
+}
+.foo_logo h2{
+    font-size: 35px;
+    color: rgb(95, 95, 95);
+}
+.foo_logo_sup{
+   padding: 35px 10px;
+   margin-left: 50px;
+}
+.foo_logo_sup a{
+    margin: 0px 30px;
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-size: 22px;
+}
+.foo_con {
+    padding: 35px 10px;
+    margin-left: 450px;
+    width: 25%;
+    font-size: 18px;
+}
+.foo_con small{
+    margin: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
